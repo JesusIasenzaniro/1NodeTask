@@ -1,6 +1,3 @@
-const fs = require('fs');
-const { text } = require('stream/consumers');
-
 const requestHandler = (req, res) => {
     const url = req.url;
     const method = req.method;
